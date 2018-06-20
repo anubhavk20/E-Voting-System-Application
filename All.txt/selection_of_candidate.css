@@ -1,0 +1,181 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+/* For header design
+---------------------------------------*/
+
+header
+{
+	height:10vh;
+	background-color:gray;
+	border: 1px solid black; 
+}
+/*For footer1 design
+-------------------------------------*/
+.footer1
+{
+	height: 100vh;
+}
+.main_div
+{
+	
+	height:100vh;
+	width: 100%;
+	border: 1px solid black;
+	background-image:url("image/voting_background_image.jpg");
+	background-size:cover;
+	background-position:center;
+}
+.logo_div
+{
+	height: 96vh;
+	width: 48%;
+	margin-top:2vh;
+	margin-left:25%;
+	border:1px solid red;
+	text-align: center;
+}
+.outer_div
+{
+	height:10vh;
+	margin-top:1vh;
+	width: 94%;
+	margin-left:3%;
+	border: 1px solid green;
+	background-color:white;
+}
+.csk_image
+{
+	background-image: url("image/BJP.jpg");
+	background-size:cover;
+	background-position:center;
+	height:8vh;
+	margin-top:1vh;
+	float:left;
+	width:12%;
+	border-radius:50%;
+	margin-left:2%;
+}
+.srh
+{
+	background-image: url("image/Congress.jpg");
+	background-size:cover;
+	background-position:center;
+	height:8vh;
+	margin-top:1vh;
+	float:left;
+	width:12%;
+	border-radius:50%;
+	margin-left:2%;
+}
+.mi
+{
+	background-image: url("image/Aap.jpg");
+	background-size:cover;
+	background-position:center;
+	height:8vh;
+	margin-top:1vh;
+	float:left;
+	width:12%;
+	border-radius:50%;
+	margin-left:2%;
+}
+.dd
+{
+	background-image: url("image/Sp.jpg");
+	background-size:cover;
+	background-position:center;
+	height:8vh;
+	margin-top:1vh;
+	float:left;
+	width:12%;
+	border-radius:50%;
+	margin-left:2%;
+}
+.rcb
+{
+	background-image: url("image/Bsp.png");
+	background-size:cover;
+	background-position:center;
+	height:8vh;
+	margin-top:1vh;
+	float:left;
+	width:12%;
+	border-radius:50%;
+	margin-left:2%;
+}
+.pnj
+{
+	background-image: url("image/Ncp.jpg");
+	background-size:cover;
+	background-position:center;
+	height:8vh;
+	margin-top:1vh;
+	float:left;
+	width:12%;
+	border-radius:50%;
+	margin-left:2%;
+}
+.rr
+{
+	background-image: url("image/Cpm.jpg");
+	background-size:cover;
+	background-position:center;
+	height:8vh;
+	margin-top:1vh;
+	float:left;
+	width:12%;
+	border-radius:50%;
+	margin-left:2%;
+}
+.kkr
+{
+	background-image: url("image/Others.png");
+	background-size:cover;
+	background-position:center;
+	height:8vh;
+	margin-top:1vh;
+	float:left;
+	width:12%;
+	border-radius:50%;
+	margin-left:2%;
+}
+.inner_div2
+{
+	height:8vh;
+	width:40%;
+	text-align:center;
+	margin-top:1vh;
+	display: inline-block;
+	margin-left:2%;
+}
+h1
+{
+	font-size:20px;
+}
+.vote_button
+{
+height:6vh;
+width:20%;
+margin-top:2vh;
+margin-right:2%;
+float:right;
+text-align: center;
+}
+.vote
+{
+height:80%;
+width: 90%;
+margin-top:1vh;
+font-size:20px;
+font-family: fantasy;
+}
+.submit_button
+{
+	border: 1px solid red;
+	width: 48%;
+	margin-left:25%;
+	margin-top:1%;
+}

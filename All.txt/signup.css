@@ -1,0 +1,94 @@
+*
+{
+margin:0px;
+padding:0px;
+}
+/* for header design
+-------------------------------*/
+header
+{ 	
+	border: 1px solid #3d486f;
+	height: 8vh;
+	background-color:#3d486f;
+}
+.menu
+{
+border: 1px solid white;
+margin-top:2vh; 
+width:5%;
+height:4vh;
+margin-left:85%;	
+text-align: center;
+text-decoration: none;
+}
+.menu button
+{
+	color: red;
+}
+.button li
+{
+	display: inline-block;
+}
+.button li a
+{
+	text-decoration:none;
+	color: white;
+}
+/* for footer design
+-------------------------------*/
+
+footer
+{
+border: 1px solid black;	
+background:url(image/image19.jpg);
+background-size:cover;
+background-position:center;
+height:91.5vh;
+}
+form
+{
+	margin-top:6%;
+}
+.signup
+{
+color:white;
+padding-top:20px;
+padding-left:20px;
+font-size:20px;
+background:green;
+width:450px;
+height:430px;
+margin:auto;
+border-radius:10px;
+opacity:.5;
+border: 1px solid black;
+}
+.signup input
+{
+margin-top:30px;
+width:200px;
+height:30px;
+font-size:15px;
+border-radius:5px;
+}
+.signup input[name="email"]
+{
+width:400px;
+}
+.signup input[type="checkbox"]
+{
+margin-top:5px;
+width:15px;
+}
+.signup input[type="submit"]
+{
+border:1px solid orange;
+margin-top:50px;
+width:100px;
+margin-left:280px;
+height:6vh;
+background:orange;
+font-size:20;
+font-weight:bold;
+}
+

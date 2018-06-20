@@ -1,0 +1,69 @@
+<html>
+<head>
+<title>signup form</title>
+<link rel="stylesheet" type="text/css" href="signup.css">
+   <script>
+	function valid()
+	{
+	var fn=document.forms.f.fst.value;
+	if(fn==""||fn==null)
+	{
+		alert("First name should be filled");
+		return false;
+	}
+	var ln=document.forms.f.lt.value;
+	if(ln==""||ln==null)
+	{
+		alert("Last name should be filled");
+		return false;
+	}
+	var z=document.forms.f.em.value;
+	var a=z.indexOf("@");
+	var b=z.indexOf(".");
+	if(a<1||b<1||a<2)
+	{
+		alert("Email is not valid");
+		return false;
+	}
+	var y=document.forms.f.mob.value;
+	if(y.length!=10)
+	{
+		alert("Mobile number is not valid");
+		return false;
+	}
+	var password = document.getElementById("ps").value;
+        var confirmPassword = document.getElementById("eps").value;
+        if (password != confirmPassword) 
+        {
+            alert("Passwords do not match.");
+            return false;
+        }
+       return true;
+}
+</script>
+</head>
+<body>
+<header>
+	<div class="menu">
+	<ul class="button">
+	<li class="active"><a href="home.jsp">Home</a></li>
+	</ul>
+</div>
+</header>
+<footer>
+<form name="f" action="validate.jsp" method="post" onsubmit="return valid()">
+<div class="signup" id="sgn">
+<div id="field" id="fld"><br>
+   	<input type="text" name="firstName" placeholder="First Name" id="fst">
+	<input type="text" name="lastName" placeholder="last Name" id="lt"><br>
+	<input type="text" name="email" placeholder="Enter email" id="em"><br>
+	<input type="text" name="contact" placeholder="mob no." id="mob"><br>
+	<input type="password" name="password" placeholder="Enter password" id="ps">
+	<input type="password" placeholder="Re-Enter" id="eps"><br>
+	<input type="submit" value="Submit" name="reg">        
+</div>
+</div>
+</form>
+</footer>
+</body>
+</html>

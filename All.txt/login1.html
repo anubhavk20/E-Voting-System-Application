@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="login.css">
+	   <script>
+	function valid()
+	{
+	var z=document.forms.f.t2.value;
+	var a=z.indexOf("@");
+	var b=z.indexOf(".");
+	if(a<1||b<1||a<2)
+	{
+		alert("Email is not valid");
+		return false;
+	}
+	
+}
+</script>
+ </head>
+<body>
+
+<header>
+<div class="header_button">
+	<ul class="button">
+	  <li class="active"><a href="home.jsp">HOME</a></li>
+		<li class="active"><a href="home.jsp">SIGNOUT</a></li>
+	</ul>
+</div>
+</header>
+
+<footer class="footer1">
+	<div class="information"><h1><marquee>Login Here For Vote</marquee></h1></div>
+	<div class="form">
+<form name="f" action="login.jsp" method="post" onsubmit="return valid()">
+Email: <input type="text" name="email" id="t2"><br>
+Password: <input type="password" name="password"><br>
+<input type="Submit" id="t4" value="Submit" >
+</form>
+</div>
+</footer>
+
+<footer class="footer2">
+	
+</footer>
+
+</body>
+</html>

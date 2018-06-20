@@ -1,0 +1,310 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+.body
+{
+	font-family:monospace;
+}
+/* For header design
+----------------------------------------*/
+header
+{
+background-image:url("image/header_background_image.png");
+background-size:cover;
+background-position:center;
+height:100vh;
+}
+.row1
+{
+/*When requred*/	
+}
+.logo img
+{
+	width:150px;
+	height: auto;
+	margin-top: 25px;
+	margin-left:30px;
+	float: left;
+}
+.main-nav
+{
+	list-style:none;
+	margin-top: 30px;
+	height: 30px;
+	float:right;
+}
+.main-nav li
+{
+	display:inline-block;
+}
+.main-nav li a
+{
+	color: white;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: "roboto",sans-serif;
+	font-size: 15px;
+}
+.main-nav li.active a 
+{
+	border:1px solid white;
+}
+.main-nav li a:hover
+{
+	border: 1px solid white;
+}
+.title
+{
+	position: absolute;
+	width: 36.60%;
+	margin:auto;
+	height:24.45%;
+	margin-left:32.56%;
+	margin-top:18.45%;
+}
+h1
+{
+	color:white;
+	text-transform: uppercase;
+	font-size:50px;
+	text-align:center;
+	margin-top:10%;
+}
+.button
+{
+	margin-top:4%;
+	height:25%;
+	text-align: center;
+}
+.btn
+{
+	border: 1px solid white;
+	padding: 1% 4%;
+	color: white;
+	text-decoration: none;
+}
+.btn-one
+{
+	background-color:orange;
+	font-family: "robot",sans-serif;
+}
+.btn-two
+{
+	font-family: "robot",sans-serif;
+}
+.btn-two:hover
+{
+	background-color:blue;
+	transition: all 0.5s ease-in;
+}
+/* For footer design
+------------------------------------*/ 
+.footer1
+{
+background-color:white;	
+background-size:cover;
+text-decoration: none;
+background-position:center;
+height:56vh;
+border:1px solid white;
+}
+.container
+{
+	
+	height:52vh;
+	margin-top:1.8%;
+}
+.info
+{
+/*When requered*/
+}
+h2
+{
+	color:#3d486f;
+	font-size:45px;	
+	text-align:center; 
+}
+.main-div
+{
+	text-align: center;
+	height: 43vh;
+	margin-top: 1px;
+}
+.discription
+{
+	height:40vh;
+	width:30%;
+	margin-top:2px;
+	margin:10px;
+	display: inline-block;
+	clear: both;
+}
+.circle
+{
+  background-color:#3d486f;
+  width:40px;
+  height:40px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 15px;
+  border-radius:50%;
+}
+.circle-img
+{
+width:40px;
+height:40px;
+clear: both;
+}
+.heading
+{
+	height:30px;
+	margin-top:5px;
+}
+.text
+{
+	height: 120px;
+	margin-top:5px;
+	clear: all;
+}
+h3
+{
+color:#3d486f;
+}
+h4
+{
+color:#3d486f;
+}
+/* For footer2 design
+------------------------------------*/
+.footer2
+{
+background-color:#3d486f;	
+background-size:cover;
+background-position:center;
+height:44vh;
+margin-top:5px;
+}
+.footer-div
+{
+	height: 43vh;
+	width:90%;
+	margin-left: 5%;
+	text-align: center;
+	margin-top: 2px;
+	display:inline-block;
+}
+.graph
+{
+	border: 2px solid white;
+	width: 45%;
+	height: 40vh;
+	margin-top:5px;
+	background-image: url("image/image31.jpg");
+	background-size:cover;
+    background-position:center;	
+	float:right;
+}
+.about
+{
+ 	width: 45%;
+ 	height: 40vh;
+ 	margin-top:5px;
+ 	border: 2px solid white;
+ }
+ /* For footer3 design
+------------------------------------*/
+.footer3
+{
+background-color:white;	
+background-size:cover;
+background-position:center;
+text-decoration: none;
+height:56vh;
+}
+.container
+{
+	
+	height:52vh;
+	margin-top:1.8%;
+}
+h2
+{
+	color:#3d486f;
+	font-size:45px;	
+	text-align:center; 
+}
+.users-div
+{
+	text-align: center;
+	height: 43vh;
+	margin-top: 1px;
+}
+.user-information
+{
+	height:40vh;
+	width:30%;
+	margin-top:2px;
+	margin:10px;
+	display: inline-block;
+}
+.user-img2
+{ 
+  width:40px;
+  height:40px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 15px;
+  border-radius:50%;
+  background-image: url("image/1.png");
+  background-size:cover;
+  background-position:center;
+}
+.user-img3
+{ 
+  width:40px;
+  height:40px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 15px;
+  border-radius:50%;
+  background-image: url("image/Viru.jpg");
+  background-size:cover;
+  background-position:center;
+}
+.user-name
+{
+	height:30px;
+	margin-top:5px;
+}
+.user-contect
+{
+	height: 120px;
+	margin-top:5px;
+	clear: all;
+}
+h3
+{
+color:#3d486f;
+}
+h4
+{
+color:#3d486f;
+}
+/* For footer4 design
+------------------------------------*/
+.footer4
+{
+	height:10vh;
+	background-color:#3d486f;
+	border: 1px solid #3d486f;
+	margin-top: 1px;
+}
+h5
+{
+	color: white;
+	text-align: center;
+	margin-top: 10px;
+	font-size: 30px;
+}

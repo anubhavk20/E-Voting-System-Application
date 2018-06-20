@@ -1,0 +1,116 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+/*For header design
+------------------------------------*/
+header
+{
+	border:1px solid black;
+	height:10vh;
+	width: 100%;
+	background-color:#3d486f;
+}
+.header_button
+{
+	height:7vh;
+	width: 20%;
+	margin-left:77%;
+	margin-top:1vh;
+}
+.button
+{
+	list-style:none;
+	margin-top:2vh;
+	height:5vh;
+	width:80%;
+	float:right;
+}
+.button li
+{
+	display:inline-block;
+}
+.button li a
+{
+	color:white;
+	text-decoration:none;
+	margin:auto;
+	padding:5px 15px;
+	font-family: "roboto",sans-serif;
+	font-size:15px;
+}
+.button li.active a 
+{
+	border:1px solid white;
+	margin-top:1vh;
+	margin: 20%;
+}
+.button li a:hover
+{
+	border: 1px solid white;
+}
+/*For footer1 design
+----------------------------------------*/
+.footer1
+{
+	border:1px solid #3d486f;
+	height:80vh;
+	width:100%; 
+	background-image:url("image/image19.jpg");
+	background-size:cover;
+	background-position:center;
+}
+.information
+{
+	margin-top: 20vh;
+}
+h1
+{
+	color: #3d486f;
+}
+.form
+{
+	margin-top: 20vh;
+	width: 30%;
+	height:30vh;
+	text-align: center;
+	margin-left: 35%;
+	background:#000080;
+	border-radius: 2%;
+	opacity: 0.5;
+	color: white;
+	font-weight: bold;
+}
+#t2
+{
+	margin-top:4vh;
+	width: 50%;
+	height: 3vh;
+	font-size:90%;
+	color: blue;
+	font-weight: bold;
+}
+#t3
+{
+	margin-top: 4vh;
+	width:45%;
+	height: 3vh;
+}
+#t4
+{
+	margin-top: 4vh;
+    width:25%;
+    height:5vh;
+    font-size: 90%;
+    color:blue;
+    background-color: orange;
+    border: 1px solid orange;
+    font-weight: bold;
+}
+.footer2
+{
+	height:9vh; 
+	width: 100%;
+	background-color:#3d486f;
+}
